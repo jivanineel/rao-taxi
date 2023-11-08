@@ -13,8 +13,29 @@ h2 {
   font-size: 45px;
 }
 
+.why-rao {
+  font-size: 44px;
+}
+
+h3 {
+  font-size: 34px;
+}
+
+h4 {
+  font-size: 32px;
+}
+
+.memory {
+  font-size: 30px;
+}
+
 h5 {
   font-size: 22px;
+}
+
+.booking {
+  font-size: 18px;
+  max-width: 688px;
 }
 
 h6 {
@@ -23,6 +44,10 @@ h6 {
 
 .container.about {
   max-width: 1060px;
+}
+
+.container-fluid {
+  width: calc(100% - 90px - 90px);
 }
 /**comman-class**/
 
@@ -137,17 +162,163 @@ h6 {
 /**about-raotaxitrip end**/
 
 /**why-raotaxi**/
+.experience {
+  background-color: rgb(232 230 230);
+  padding: 90px 0;
+  height: 100%;
+}
 
-.experience{
-  background-color: rgb(232 230 230); 
-  padding: 30px;
+.why-rao {
+  margin-bottom: 40px;
 }
 
 .experience-img {
   max-width: 557px;
-  height: 474px;
+  min-height: 474px;
   border-radius: 20px;
   object-fit: cover;
 }
 
+.taxitrip > div {
+  max-width: 413px;
+}
+
+.facilities {
+  color: rgba(40, 41, 43);
+}
+
+.available {
+  margin-bottom: 30px;
+}
+
+.why-raotaxi .btn-warning {
+  margin-top: 60px;
+  padding: 8px 40px;
+  color: #28292b;
+}
 /**why-raotaxi end**/
+
+/**price-taxi**/
+.price-taxi {
+  background-color: rgb(40 41 43);
+}
+
+.price-taxi .container-fluid {
+  padding: 44px 0;
+}
+
+.price-taxi .card {
+  background-color: rgb(232 230 230);
+  padding: 70px 0 20px;
+  margin: 16px 0;
+}
+
+.price-taxi .card .card-title {
+  font-size: 25px;
+}
+
+.price-taxi .form-select {
+  height: 40px;
+  color: #fff;
+  max-width: 300px;
+}
+
+.car-name {
+  font-size: 22px;
+  color: rgba(40, 41, 43);
+  background-color: #fff;
+  padding: 3px 30px;
+  border-radius: 8px 0px 0px 8px;
+}
+
+.car-price {
+  font-size: 22px;
+  color: rgb(40 41 43);
+  background-color: #fdc213;
+  padding: 3px 30px;
+  border-radius: 0px 8px 8px 0px;
+}
+
+.price-taxi .btn-dark {
+  color: #fdc213;
+  font-size: 14px;
+  margin-top: 50px;
+}
+
+.car {
+  margin-bottom: 34px;
+}
+/**price-taxi end**/
+
+/**online-booking**/
+.online-booking {
+  background-color: #fdc213;
+  padding: 150px 0 58px;
+}
+
+.booking-details {
+  background-color: rgba(40, 41, 43);
+}
+
+.check {
+  color: #fdc213;
+}
+
+.check span {
+  font-size: 18px;
+}
+
+.step-details {
+  padding: 50px 0 140px;
+  height: 100%;
+}
+
+.details {
+  font-size: 15px;
+  max-width: 450px;
+}
+
+.gps {
+  padding-bottom: 70px;
+  position: relative;
+}
+
+.gps img {
+  border-radius: 20px;
+}
+
+.drive-enjoy {
+  position: absolute;
+  top: 205px;
+  left: 137px;
+}
+/**online-booking end**/
+
+/**memorable journey**/
+.memorable-journey{
+  background: url(../img/memorable-journey.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  z-index: -1;
+  height: 612px;
+}
+
+.overlay{
+  background-color: rgb(40, 41, 43, 0.5);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.35;
+  z-index: 2;
+}
+
+.memorable-logo {
+  max-width: 305px;
+  height: 391px;
+}
+/**memorable journey end**/
