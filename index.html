@@ -32,39 +32,38 @@
           <nav
             class="navbar navbar-expand-lg mx-auto d-flex justify-content-center align-items-center pe-5"
           >
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#"
-                ><img src="assets/img/logo.png" alt="logo"
-              /></a>
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
+            <a class="navbar-brand" href="#"
+              ><img src="assets/img/logo.png" alt="logo"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon top-bar"></span>
+              <span class="navbar-toggler-icon bottom-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul
+                class="navbar-nav ms-auto d-flex justify-content-center align-items-center"
               >
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul
-                  class="navbar-nav ms-auto d-flex justify-content-center align-items-center"
-                >
-                  <li class="nav-item">
-                    <a class="nav-link fw-semibold me-3" href="#"
-                      ><i class="fa-solid fa-phone me-1"></i>Call Us 24/7</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      class="nav-link fw-semibold number py-0 rounded-1 px-3"
-                      href="#"
-                      >756-7775-756</a
-                    >
-                  </li>
-                </ul>
-              </div>
+                <li class="nav-item">
+                  <a class="nav-link fw-semibold me-3" href="#"
+                    ><i class="fa-solid fa-phone me-1"></i>Call Us 24/7</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link fw-semibold number py-0 rounded-1 px-3"
+                    href="#"
+                    >756-7775-756</a
+                  >
+                </li>
+              </ul>
             </div>
           </nav>
         </div>
@@ -82,7 +81,6 @@
                 class="form-select mb-4 text-center fw-bold"
                 aria-label="Default select example"
               >
-                <option selected>Local / Airport</option>
                 <option value="1">Local / Airport</option>
                 <option value="2">Outstation</option>
               </select>
@@ -117,6 +115,50 @@
           </div>
         </div>
       </div>
+      <!-- <div class="typeoftrips">
+        <div class="container">
+          <div class="type-trips mx-auto">
+            <div class="row">
+              <hr class="animation-line mx-auto" />
+              <div class="col-lg-4">
+                <div class="card border-0 text-center mx-auto">
+                  <div class="card-body">
+                    <h5 class="card-title pb-4">Local Trips</h5>
+                    <p class="card-text mt-2 fw-medium">
+                      Explore your city with ease using our local taxi service.
+                      Whether it's a quick ride to work, a shopping trip, or a
+                      night out, we've got you covered.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card border-0 text-center mx-auto">
+                  <div class="card-body">
+                    <h5 class="card-title pb-4">Outstation Travel</h5>
+                    <p class="card-text mt-2 fw-medium">
+                      Plan a getaway with our outstation taxi service. Enjoy a
+                      comfortable journey to nearby cities and attractions.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card border-0 text-center mx-auto">
+                  <div class="card-body">
+                    <h5 class="card-title pb-4">Airport Transfers</h5>
+                    <p class="card-text mt-2 fw-medium">
+                      Start and end your trip stress-free with our airport
+                      transfer service. We provide timely pickups and drop-offs
+                      to all major airports.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
     </div>
     <!--header end-->
 
@@ -146,7 +188,7 @@
             <img
               src="assets/img/about-raotaxi.jpg"
               alt="about-raotaxi"
-              class="taxi-img"
+              class="taxi-img h-100"
             />
           </div>
         </div>
@@ -218,7 +260,7 @@
     <div class="price-taxi">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-md-6">
             <div class="card rounded-0 text-center">
               <div class="card-body">
                 <h5 class="card-title">Cab From Mumbai</h5>
@@ -234,21 +276,33 @@
                   <option value="5" class="place">Vapi</option>
                 </select>
                 <div>
-                  <img src="assets/img/Sedan.png" alt="first" />
+                  <img
+                    src="assets/img/Sedan.png"
+                    alt="first"
+                    class="img-fluid mb-3"
+                  />
                   <div class="car d-flex justify-content-center">
                     <p class="car-name fw-semibold mb-0">Sedan</p>
                     <p class="car-price mb-0">₹PRICE</p>
                   </div>
                 </div>
                 <div>
-                  <img src="assets/img/Ertiga.png" alt="second" />
+                  <img
+                    src="assets/img/Ertiga.png"
+                    alt="second"
+                    class="img-fluid mb-3"
+                  />
                   <div class="car d-flex justify-content-center">
                     <p class="car-name fw-semibold mb-0">Ertiga</p>
                     <p class="car-price mb-0">₹PRICE</p>
                   </div>
                 </div>
                 <div>
-                  <img src="assets/img/Innova.png" alt="third" />
+                  <img
+                    src="assets/img/Innova.png"
+                    alt="third"
+                    class="img-fluid mb-3"
+                  />
                   <div class="car d-flex justify-content-center mb-0">
                     <p class="car-name fw-semibold mb-0">Innova</p>
                     <p class="car-price mb-0">₹PRICE</p>
@@ -258,7 +312,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-md-6">
             <div class="card rounded-0 text-center">
               <div class="card-body">
                 <h5 class="card-title">Cab From Ahmedabad</h5>
@@ -267,28 +321,36 @@
                   aria-label="Default select example"
                 >
                   <option selected>To</option>
-                  <option value="1" class="place">Ahmedabad</option>
-                  <option value="2" class="place">Vadodara</option>
-                  <option value="3" class="place">Bharuch</option>
-                  <option value="4" class="place">Surat</option>
-                  <option value="5" class="place">Vapi</option>
+                  <option value="1" class="place">Mumbai</option>
                 </select>
                 <div>
-                  <img src="assets/img/Sedan.png" alt="first" />
+                  <img
+                    src="assets/img/Sedan.png"
+                    alt="first"
+                    class="img-fluid mb-3"
+                  />
                   <div class="car d-flex justify-content-center">
                     <p class="car-name fw-semibold mb-0">Sedan</p>
                     <p class="car-price mb-0">₹PRICE</p>
                   </div>
                 </div>
                 <div>
-                  <img src="assets/img/Ertiga.png" alt="second" />
+                  <img
+                    src="assets/img/Ertiga.png"
+                    alt="second"
+                    class="img-fluid mb-3"
+                  />
                   <div class="car d-flex justify-content-center">
                     <p class="car-name fw-semibold mb-0">Ertiga</p>
                     <p class="car-price mb-0">₹PRICE</p>
                   </div>
                 </div>
                 <div>
-                  <img src="assets/img/Innova.png" alt="third" />
+                  <img
+                    src="assets/img/Innova.png"
+                    alt="third"
+                    class="img-fluid mb-3"
+                  />
                   <div class="car d-flex mb-0 justify-content-center">
                     <p class="car-name fw-semibold mb-0">Innova</p>
                     <p class="car-price mb-0">₹PRICE</p>
@@ -298,7 +360,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-md-6">
             <div class="card rounded-0 text-center">
               <div class="card-body">
                 <h5 class="card-title">Cab From Vadodara</h5>
@@ -307,28 +369,36 @@
                   aria-label="Default select example"
                 >
                   <option selected>To</option>
-                  <option value="1" class="place">Ahmedabad</option>
-                  <option value="2" class="place">Vadodara</option>
-                  <option value="3" class="place">Bharuch</option>
-                  <option value="4" class="place">Surat</option>
-                  <option value="5" class="place">Vapi</option>
+                  <option value="1" class="place">Mumbai</option>
                 </select>
                 <div>
-                  <img src="assets/img/Sedan.png" alt="first" />
+                  <img
+                    src="assets/img/Sedan.png"
+                    alt="first"
+                    class="img-fluid mb-3"
+                  />
                   <div class="car d-flex justify-content-center">
                     <p class="car-name fw-semibold mb-0">Sedan</p>
                     <p class="car-price mb-0">₹PRICE</p>
                   </div>
                 </div>
                 <div>
-                  <img src="assets/img/Ertiga.png" alt="second" />
+                  <img
+                    src="assets/img/Ertiga.png"
+                    alt="second"
+                    class="img-fluid mb-3"
+                  />
                   <div class="car d-flex justify-content-center">
                     <p class="car-name fw-semibold mb-0">Ertiga</p>
                     <p class="car-price mb-0">₹PRICE</p>
                   </div>
                 </div>
                 <div>
-                  <img src="assets/img/Innova.png" alt="third" />
+                  <img
+                    src="assets/img/Innova.png"
+                    alt="third"
+                    class="img-fluid mb-3"
+                  />
                   <div class="car d-flex justify-content-center mb-0">
                     <p class="car-name fw-semibold mb-0">Innova</p>
                     <p class="car-price mb-0">₹PRICE</p>
@@ -338,7 +408,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-md-6">
             <div class="card rounded-0 text-center">
               <div class="card-body">
                 <h5 class="card-title">Cab From Bharuch</h5>
@@ -347,28 +417,36 @@
                   aria-label="Default select example"
                 >
                   <option selected>To</option>
-                  <option value="1" class="place">Ahmedabad</option>
-                  <option value="2" class="place">Vadodara</option>
-                  <option value="3" class="place">Bharuch</option>
-                  <option value="4" class="place">Surat</option>
-                  <option value="5" class="place">Vapi</option>
+                  <option value="1" class="place">Mumbai</option>
                 </select>
                 <div>
-                  <img src="assets/img/Sedan.png" alt="first" />
+                  <img
+                    src="assets/img/Sedan.png"
+                    alt="first"
+                    class="img-fluid mb-3"
+                  />
                   <div class="car d-flex justify-content-center">
                     <p class="car-name fw-semibold mb-0">Sedan</p>
                     <p class="car-price mb-0">₹PRICE</p>
                   </div>
                 </div>
                 <div>
-                  <img src="assets/img/Ertiga.png" alt="second" />
+                  <img
+                    src="assets/img/Ertiga.png"
+                    alt="second"
+                    class="img-fluid mb-3"
+                  />
                   <div class="car d-flex justify-content-center">
                     <p class="car-name fw-semibold mb-0">Ertiga</p>
                     <p class="car-price mb-0">₹PRICE</p>
                   </div>
                 </div>
                 <div>
-                  <img src="assets/img/Innova.png" alt="third" />
+                  <img
+                    src="assets/img/Innova.png"
+                    alt="third"
+                    class="img-fluid mb-3"
+                  />
                   <div class="car d-flex justify-content-center mb-0">
                     <p class="car-name fw-semibold mb-0">Innova</p>
                     <p class="car-price mb-0">₹PRICE</p>
@@ -378,7 +456,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-md-6">
             <div class="card rounded-0 text-center">
               <div class="card-body">
                 <h5 class="card-title">Cab From Surat</h5>
@@ -387,28 +465,36 @@
                   aria-label="Default select example"
                 >
                   <option selected>To</option>
-                  <option value="1" class="place">Ahmedabad</option>
-                  <option value="2" class="place">Vadodara</option>
-                  <option value="3" class="place">Bharuch</option>
-                  <option value="4" class="place">Surat</option>
-                  <option value="5" class="place">Vapi</option>
+                  <option value="1" class="place">Mumbai</option>
                 </select>
                 <div>
-                  <img src="assets/img/Sedan.png" alt="first" />
+                  <img
+                    src="assets/img/Sedan.png"
+                    alt="first"
+                    class="img-fluid mb-3"
+                  />
                   <div class="car d-flex justify-content-center">
                     <p class="car-name fw-semibold mb-0">Sedan</p>
                     <p class="car-price mb-0">₹PRICE</p>
                   </div>
                 </div>
                 <div>
-                  <img src="assets/img/Ertiga.png" alt="second" />
+                  <img
+                    src="assets/img/Ertiga.png"
+                    alt="second"
+                    class="img-fluid mb-3"
+                  />
                   <div class="car d-flex justify-content-center">
                     <p class="car-name fw-semibold mb-0">Ertiga</p>
                     <p class="car-price mb-0">₹PRICE</p>
                   </div>
                 </div>
                 <div>
-                  <img src="assets/img/Innova.png" alt="third" />
+                  <img
+                    src="assets/img/Innova.png"
+                    alt="third"
+                    class="img-fluid mb-3"
+                  />
                   <div class="car d-flex justify-content-center mb-0">
                     <p class="car-name fw-semibold mb-0">Innova</p>
                     <p class="car-price mb-0">₹PRICE</p>
@@ -418,7 +504,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-md-6">
             <div class="card rounded-0 text-center">
               <div class="card-body">
                 <h5 class="card-title">Cab From Vapi</h5>
@@ -427,28 +513,36 @@
                   aria-label="Default select example"
                 >
                   <option selected>To</option>
-                  <option value="1" class="place">Ahmedabad</option>
-                  <option value="2" class="place">Vadodara</option>
-                  <option value="3" class="place">Bharuch</option>
-                  <option value="4" class="place">Surat</option>
-                  <option value="5" class="place">Vapi</option>
+                  <option value="1" class="place">Mumbai</option>
                 </select>
                 <div>
-                  <img src="assets/img/Sedan.png" alt="first" />
+                  <img
+                    src="assets/img/Sedan.png"
+                    alt="first"
+                    class="img-fluid mb-3"
+                  />
                   <div class="car d-flex justify-content-center">
                     <p class="car-name fw-semibold mb-0">Sedan</p>
                     <p class="car-price mb-0">₹PRICE</p>
                   </div>
                 </div>
                 <div>
-                  <img src="assets/img/Ertiga.png" alt="second" />
+                  <img
+                    src="assets/img/Ertiga.png"
+                    alt="second"
+                    class="img-fluid mb-3"
+                  />
                   <div class="car d-flex justify-content-center">
                     <p class="car-name fw-semibold mb-0">Ertiga</p>
                     <p class="car-price mb-0">₹PRICE</p>
                   </div>
                 </div>
                 <div>
-                  <img src="assets/img/Innova.png" alt="third" />
+                  <img
+                    src="assets/img/Innova.png"
+                    alt="third"
+                    class="img-fluid mb-3"
+                  />
                   <div class="car d-flex justify-content-center mb-0">
                     <p class="car-name fw-semibold mb-0">Innova</p>
                     <p class="car-price mb-0">₹PRICE</p>
@@ -479,10 +573,10 @@
               <div class="col-lg-6 step-details">
                 <div class="d-flex justify-content-center">
                   <div>
-                    <h4 class="check mb-5">
+                    <h4 class="check mb-4">
                       <span class="mb-2">01 </span> <br />Inquiry
                     </h4>
-                    <p class="details text-white">
+                    <p class="details text-white mb-0">
                       Begin your journey with us by filling out our
                       user-friendly online inquiry form. Provide essential
                       details such as your name, contact information, pickup
@@ -496,7 +590,7 @@
                     <h4 class="check">
                       <span class="mb-2">02</span> <br />Consultation
                     </h4>
-                    <p class="details text-white">
+                    <p class="details text-white mb-0">
                       Once we receive your inquiry, our dedicated team swings
                       into action. We understand the importance of clarity, so
                       we'll give you a call to discuss your ride in detail.
@@ -511,7 +605,7 @@
                     <h4 class="check">
                       <span class="mb-2">03</span> <br />Confirmation & Booking
                     </h4>
-                    <p class="details text-white">
+                    <p class="details text-white mb-0">
                       After our chat, we'll take care of all the arrangements.
                       This includes scheduling a suitable vehicle, assigning one
                       of our professional drivers, and confirming the date and
@@ -526,13 +620,17 @@
               </div>
               <div class="col-lg-6">
                 <div
-                  class="d-flex justify-content-center align-items-end h-100 gps"
+                  class="d-flex justify-content-lg-end justify-content-center align-items-end h-100 gps"
                 >
-                  <img src="assets/img/inquiry-check.jpg" alt="location" />
+                  <img
+                    src="assets/img/inquiry-check.jpg"
+                    alt="location"
+                    class="img-fluid"
+                  />
                   <img
                     src="assets/img/drive-enjoy.jpg"
                     alt="drive-enjoy"
-                    class="drive-enjoy"
+                    class="drive-enjoy img-fluid"
                   />
                 </div>
               </div>
@@ -566,12 +664,17 @@
     <!--Trips from-->
     <div class="trip-from">
       <div class="container">
-        <div class="row">
-          <!-- <div class="mouse-wheel">
-            <img src="assets/img/car.png" alt="car" class="car">
-          </div> -->
-          <div class="d-flex justify-content-between mt-5">
-            <div>
+        <div class="row justify-content-center">
+          <div class="mouse-wheel">
+            <img
+              src="assets/img/car.png"
+              alt="car"
+              class="car img-fluid"
+              id="car"
+            />
+          </div>
+          <div class="row mt-5 tour">
+            <div class="col-lg-3 col-md-6 mx-auto">
               <p class="booking fw-semibold">CAB FROM MUMBAI</p>
               <ul class="ps-0 ms-1">
                 <li><a href="" class="text-white">Mumbai to Shirdi</a></li>
@@ -584,78 +687,20 @@
                 <li><a href="" class="text-white">Mumbai to Surat</a></li>
               </ul>
             </div>
-            <div>
-              <p class="booking fw-semibold">CAB FROM MUMBAI</p>
-              <ul class="ps-0 ms-1">
-                <li><a href="" class="text-white">Mumbai to Ahmedabad</a></li>
-                <li><a href="" class="text-white">Mumbai to vapi</a></li>
-                <li>
-                  <a href="" class="text-white">Mumbai to valsad</a>
-                </li>
-                <li><a href="" class="text-white">Mumbai to navsari</a></li>
-                <li><a href="" class="text-white">Mumbai to Ankleshwar</a></li>
-                <li><a href="" class="text-white">Mumbai to bharuch</a></li>
-              </ul>
-            </div>
-            <div>
-              <p class="booking fw-semibold">CAB FROM MUMBAI</p>
-              <ul class="ps-0 ms-1">
-                <li><a href="" class="text-white">Mumbai to Anand</a></li>
-                <li><a href="" class="text-white">Mumbai to Nadiyad</a></li>
-                <li>
-                  <a href="" class="text-white">Mumbai to Rajkot</a>
-                </li>
-                <li><a href="" class="text-white">Mumbai to bhavnagar</a></li>
-                <li><a href="" class="text-white">Mumbai to gandhidham</a></li>
-                <li><a href="" class="text-white">Mumbai to bhuj</a></li>
-              </ul>
-            </div>
-            <div>
-              <p class="booking fw-semibold">CAB FROM AHMEDABAD</p>
-              <ul class="ps-0 ms-1">
-                <li><a href="" class="text-white">Ahemdabad to Mumbai</a></li>
-                <li><a href="" class="text-white">Ahemdabad to Nadiyad</a></li>
-                <li>
-                  <a href="" class="text-white">Ahemdabad to Anand</a>
-                </li>
-                <li><a href="" class="text-white">Ahemdabad to bharuch</a></li>
-                <li>
-                  <a href="" class="text-white">Ahemdabad to Ankleshwar</a>
-                </li>
-                <li><a href="" class="text-white">Ahemdabad to surat</a></li>
-              </ul>
-            </div>
-            <div>
-              <p class="booking fw-semibold">CAB FROM AHMEDABAD</p>
-              <ul class="ps-0 ms-1">
-                <li><a href="" class="text-white">Ahemdabad to navsari </a></li>
-                <li><a href="" class="text-white">Ahemdabad to valsad</a></li>
-                <li>
-                  <a href="" class="text-white">Ahemdabad to vapi</a>
-                </li>
-                <li><a href="" class="text-white">Ahemdabad to Rajkot</a></li>
-                <li>
-                  <a href="" class="text-white">Ahemdabad to bhavnagar</a>
-                </li>
-                <li>
-                  <a href="" class="text-white">Ahemdabad to gandhidham</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="d-flex justify-content-between mt-5">
-            <div>
+            <div class="col-lg-3 col-md-6 mx-auto">
               <p class="booking fw-semibold">CAB FROM JAIPUR</p>
               <ul class="ps-0 ms-1">
                 <li><a href="" class="text-white">Jaipur to Agra</a></li>
                 <li><a href="" class="text-white">Jaipur to Udaipur</a></li>
-                <li><a href="" class="text-white">Jaipur to Jodhpur</a></li>
+                <li>
+                  <a href="" class="text-white">Jaipur to Jodhpur</a>
+                </li>
                 <li><a href="" class="text-white">Jaipur to Ajmer</a></li>
                 <li><a href="" class="text-white">Jaipur to Delhi</a></li>
                 <li><a href="" class="text-white">Jaipur to Pushkar</a></li>
               </ul>
             </div>
-            <div>
+            <div class="col-lg-3 col-md-6 mx-auto">
               <p class="booking fw-semibold">CAB FROM CHENNAI</p>
               <ul class="ps-0 ms-1">
                 <li><a href="" class="text-white">Chennai to Bangalore</a></li>
@@ -672,112 +717,19 @@
                 <li><a href="" class="text-white">Chennai to Coimbatore</a></li>
               </ul>
             </div>
-            <div>
-              <p class="booking fw-semibold">CAB FROM DELHI</p>
+            <div class="col-lg-3 col-md-6 mx-auto">
+              <p class="booking fw-semibold">CAB FROM AHMEDABAD</p>
               <ul class="ps-0 ms-1">
-                <li><a href="" class="text-white">Delhi to Agra</a></li>
-                <li><a href="" class="text-white">Delhi to Jaipur</a></li>
-                <li><a href="" class="text-white">Delhi to Chandigarh</a></li>
-                <li><a href="" class="text-white">Delhi to Amritsar</a></li>
-                <li><a href="" class="text-white">Delhi to Manali</a></li>
-                <li><a href="" class="text-white">Delhi to Varanasi</a></li>
-              </ul>
-            </div>
-            <div>
-              <p class="booking fw-semibold">CAB FROM DELHI</p>
-              <ul class="ps-0 ms-1">
-                <li><a href="" class="text-white">Delhi to Gurgaon</a></li>
-                <li><a href="" class="text-white">Delhi to Noida</a></li>
-                <li><a href="" class="text-white">Delhi to Haridwar</a></li>
-                <li><a href="" class="text-white">Delhi to Amritsar</a></li>
-                <li><a href="" class="text-white">Delhi to Manali</a></li>
-                <li><a href="" class="text-white">Delhi to Rishikesht</a></li>
-              </ul>
-            </div>
-            <div>
-              <p class="booking fw-semibold">CAB FROM BANGALORE</p>
-              <ul class="ps-0 ms-1">
-                <li><a href="" class="text-white">Bangalore to Mysore</a></li>
-                <li><a href="" class="text-white">Bangalore to Coorg</a></li>
-                <li><a href="" class="text-white">Bangalore to Ooty</a></li>
-                <li><a href="" class="text-white">Bangalore to Goa</a></li>
-                <li><a href="" class="text-white">Bangalore to Chennai</a></li>
-                <li><a href="" class="text-white">Bangalore to Hampi</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="d-flex justify-content-between mt-5">
-            <div>
-              <p class="booking fw-semibold">CAB FROM CHANDIGARH</p>
-              <ul class="ps-0 ms-1">
-                <li><a href="" class="text-white">Chandigarh to Delhi</a></li>
+                <li><a href="" class="text-white">Ahemdabad to Mumbai</a></li>
+                <li><a href="" class="text-white">Ahemdabad to Nadiyad</a></li>
                 <li>
-                  <a href="" class="text-white">Chandigarh to Amritsar</a>
+                  <a href="" class="text-white">Ahemdabad to Anand</a>
                 </li>
-                <li><a href="" class="text-white">Chandigarh to Shimla</a></li>
-                <li><a href="" class="text-white">Chandigarh to Manali</a></li>
+                <li><a href="" class="text-white">Ahemdabad to bharuch</a></li>
                 <li>
-                  <a href="" class="text-white">Chandigarh to Dharamshala</a>
+                  <a href="" class="text-white">Ahemdabad to Ankleshwar</a>
                 </li>
-                <li>
-                  <a href="" class="text-white">Chandigarh to Rishikesh</a>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <p class="booking fw-semibold">CAB FROM LUCKNOW</p>
-              <ul class="ps-0 ms-1">
-                <li><a href="" class="text-white">Lucknow to Delhi</a></li>
-                <li><a href="" class="text-white">Lucknow to Kanpur</a></li>
-                <li><a href="" class="text-white">Lucknow to Varanasi</a></li>
-                <li><a href="" class="text-white">Lucknow to Allahabad</a></li>
-                <li><a href="" class="text-white">Lucknow to Agra</a></li>
-                <li><a href="" class="text-white">Lucknow to Gorakhpur</a></li>
-              </ul>
-            </div>
-            <div>
-              <p class="booking fw-semibold">CAB FROM LUDHIANA</p>
-              <ul class="ps-0 ms-1">
-                <li><a href="" class="text-white">Ludhiana to Delhi</a></li>
-                <li>
-                  <a href="" class="text-white">Ludhiana to Chandigarh</a>
-                </li>
-                <li><a href="" class="text-white">Ludhiana to Amritsar</a></li>
-                <li><a href="" class="text-white">Ludhiana to Manali</a></li>
-                <li><a href="" class="text-white">Ludhiana to Jalandhar</a></li>
-                <li><a href="" class="text-white">Ludhiana to Patiala</a></li>
-              </ul>
-            </div>
-            <div>
-              <p class="booking fw-semibold">CAB FROM KOLKATA</p>
-              <ul class="ps-0 ms-1">
-                <li><a href="" class="text-white">Kolkata to Digha</a></li>
-                <li><a href="" class="text-white">Kolkata to Darjeeling</a></li>
-                <li><a href="" class="text-white">Kolkata to Puri</a></li>
-                <li><a href="" class="text-white">Kolkata to Siliguri</a></li>
-                <li>
-                  <a href="" class="text-white">Kolkata to Bhubaneswar</a>
-                </li>
-                <li><a href="" class="text-white">Kolkata to Ranchi</a></li>
-              </ul>
-            </div>
-            <div>
-              <p class="booking fw-semibold">CAB FROM HYDERABAD</p>
-              <ul class="ps-0 ms-1">
-                <li><a href="" class="text-white">Hyderabad to Warangal</a></li>
-                <li>
-                  <a href="" class="text-white">Hyderabad to Vijayawada</a>
-                </li>
-                <li>
-                  <a href="" class="text-white">Hyderabad to Nizamabad</a>
-                </li>
-                <li>
-                  <a href="" class="text-white">Hyderabad to Karimnagar</a>
-                </li>
-                <li><a href="" class="text-white">Hyderabad to Nagpur</a></li>
-                <li>
-                  <a href="" class="text-white">Hyderabad to Bangalore</a>
-                </li>
+                <li><a href="" class="text-white">Ahemdabad to surat</a></li>
               </ul>
             </div>
           </div>
@@ -790,13 +742,8 @@
     <div class="testimonails">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-lg-2 px-lg-0">
-            <div class="card first rounded-0 h-100">
-              
-            </div>
-          </div>
-          <div class="col-lg-3 px-lg-0">
-            <div class="card rounded-0">
+          <div class="col-lg-4 col-md-6 px-lg-0">
+            <div class="card rounded-0 mb-3">
               <div class="card-body">
                 <p class="card-text booking fw-semibold mx-auto">
                   "I needed a last-minute ride from Mumbai to Pune for a
@@ -808,8 +755,8 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 px-lg-0">
-            <div class="card rounded-0">
+          <div class="col-lg-4 col-md-6 px-lg-0">
+            <div class="card rounded-0 mb-3">
               <div class="card-body">
                 <p class="card-text booking fw-semibold mx-auto">
                   "Rao Taxitrips made our family vacation to Manali a breeze.
@@ -817,16 +764,20 @@
                   the best stops along the way. We felt safe and comfortable
                   throughout the journey."
                 </p>
-                <h5 class="card-title ps-4">Sanjay Patel</h5>
+                <h5 class="card-title ps-4">Emily Turner</h5>
               </div>
             </div>
           </div>
-          <div class="col-lg-3 px-lg-0">
-            <div class="card rounded-0">
+          <div class="col-lg-4 col-md-6 px-lg-0">
+            <div class="card rounded-0 mb-3">
               <div class="card-body">
                 <p class="card-text booking fw-semibold mx-auto">
-                  "I had a fantastic experience with Rao Taxitrips. The driver was punctual, and the vehicle was clean and comfortable. They made my trip from Delhi to Agra hassle-free, and I would definitely recommend their services to anyone."</p>
-                <h5 class="card-title ps-4">Sanjay Patel</h5>
+                  "I had a fantastic experience with Rao Taxitrips. The driver
+                  was punctual, and the vehicle was clean and comfortable. They
+                  made my trip from Delhi to Agra hassle-free, and I would
+                  definitely recommend their services to anyone."
+                </p>
+                <h5 class="card-title ps-4">Priya Sharma</h5>
               </div>
             </div>
           </div>
@@ -854,7 +805,11 @@
                 <input type="text" placeholder="Phone" class="inform mb-3" />
               </div>
               <div class="col-lg-6">
-                <input type="text" placeholder="Car Details" class="inform" />
+                <input
+                  type="text"
+                  placeholder="Car Details"
+                  class="inform mb-3"
+                />
               </div>
               <div class="col-lg-6">
                 <input type="text" placeholder="City" class="inform" />
@@ -882,7 +837,7 @@
     <div class="footer pt-5 pb-5">
       <div class="container">
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-md-6">
             <img src="assets/img/logo.png" alt="logo" />
             <ul class="d-flex justify-content-center align-items-center ps-0">
               <li class="nav-item">
@@ -904,7 +859,7 @@
               Email : booking@raotaxitrips.com
             </p>
           </div>
-          <div class="col-lg-4 text-center">
+          <div class="col-lg-4 col-md-6 text-center">
             <img
               src="assets/img/memorable-logo.png"
               alt=""
@@ -949,8 +904,6 @@
     </div>
     <!--footer end-->
 
-    <!--****jquery cdn****-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <!--bootstarap js cdn-->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
@@ -962,7 +915,24 @@
       integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
       crossorigin="anonymous"
     ></script>
-    <!--script-->
-    <script src="assets/js/script.js"></script>
+    <!-- ****jquery cdn**** -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <!-- script -->
+    <script>
+      var window_width = $(window).width() - $("#car").width();
+
+      var document_height = $(document).height() - $(window).height();
+
+      $(function () {
+        $(window).scroll(function () {
+          var scroll_position = $(window).scrollTop();
+          var car_position_left =
+            window_width * (scroll_position / document_height);
+          $("#car").css({
+            left: car_position_left,
+          });
+        });
+      });
+    </script>
   </body>
 </html>

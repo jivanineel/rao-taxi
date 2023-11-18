@@ -1,5 +1,126 @@
-@media (max-width: 767.98px) {
-     .banner .container {
-          padding-right: 100px;
-      }
+@media (max-width: 1400.98px) {
+  .mouse-wheel {
+    display: none;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    position: absolute;
+    top: 87px;
+    left: 0;
+    background-color: #fff;
+    width: 100%;
+    z-index: 344;
+    opacity: 1;
+  }
+
+  .nav-link {
+    color: #000 !important;
+    text-align: center;
+    padding: 14px;
+  }
+
+  .nav-link:hover {
+    border-bottom: 1px solid #08358a;
+  }
+
+  .navbar-toggler-icon {
+    /* background: white; */
+    color: white !important;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  .trip-from ul li::marker {
+    color: transparent;
+  }
+
+  .banner .container {
+    padding-right: 0px;
+  }
+
+  .about-rao {
+    padding-bottom: 40px;
+  }
+
+  .taxi-book {
+    margin: 0 auto;
+  }
+
+  .drive-enjoy {
+    display: none;
+  }
+}
+
+@media (max-width: 768.98px) {
+  .gps {
+    padding-right: 0;
+  }
+
+  .mouse-wheel {
+    display: none;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .container-fluid {
+    width: calc(100% - 90px - 40px);
+  }
+
+  .experience-img {
+    /* max-width: 0; */
+    min-height: 474px;
+  }
+
+  .car {
+    flex-direction: column;
+  }
+
+  .price-taxi .card {
+    padding: 45px 0 20px;
+  }
+
+  .experience {
+    padding: 60px 0;
+    background-color: #fff;
+  }
+
+  .car p {
+    border-radius: 8px 8px 8px 8px;
+  }
+
+  .step-details {
+    padding: 50px 20px 70px;
+  }
+
+  .testimonails .card .card-title {
+    padding-top: 0;
+  }
+
+  .join-team {
+    padding: 75px 0 70px;
+  }
+}
+
+@media (max-width: 375.98px) {
+  .container-fluid {
+    width: calc(100% - 90px - 0px);
+  }
+
+  .booking {
+    font-size: 13px;
+  }
+
+  .service {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+
+  .btn-warning {
+    padding: 8px 34px;
+    font-size: 18px;
+  }
 }
