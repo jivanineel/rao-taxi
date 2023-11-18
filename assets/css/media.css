@@ -4,6 +4,12 @@
   }
 }
 
+@media ((max-width: 1199.98px) and (min-width: 991.98px)) {
+  .straight {
+    display: none;
+  }
+}
+
 @media (max-width: 991.98px) {
   .navbar-collapse {
     position: absolute;
@@ -15,10 +21,27 @@
     opacity: 1;
   }
 
+  .navbar .navbar-toggler .navbar-toggler-icon {
+    width: 30px;
+    height: 3px;
+    background: #fff;
+    display: block;
+    background-image: none;
+    transition: 0.5s ease-in-out;
+  }
+
+  .navbar-collapse {
+    padding: 10px;
+  }
+
   .nav-link {
     color: #000 !important;
     text-align: center;
     padding: 14px;
+  }
+
+  .navbar .navbar-toggler {
+    padding: 10px;
   }
 
   .nav-link:hover {
@@ -52,6 +75,34 @@
 
   .drive-enjoy {
     display: none;
+  }
+
+  .straight {
+    transform: rotateZ(90deg);
+  }
+
+  .typeoftrips .car {
+    top: 216px;
+    left: 740px;
+    animation-name: travel-responsive;
+    animation-duration: 2s;
+    width: 104px;
+  }
+
+  @keyframes travel-responsive {
+    0% {
+      left: 390px;
+    }
+    /* 50%{ top : 40px; left: 508px;} */
+    100% {
+      left: 740px;
+    }
+  }
+
+  .animation-line {
+    top: 216px;
+    left: 293px;
+    width: 77%;
   }
 }
 
@@ -94,6 +145,10 @@
 
   .step-details {
     padding: 50px 20px 70px;
+  }
+
+  .straight {
+    display: none;
   }
 
   .testimonails .card .card-title {

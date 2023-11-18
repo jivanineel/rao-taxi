@@ -76,43 +76,13 @@ h6 {
   font-size: 20px;
 }
 
-.navbar .navbar-toggler .navbar-toggler-icon {
-  width: 30px;
-  height: 3px;
-  background: #fff;
-  display: block;
-  background-image: none;
-  transition: 0.5s ease-in-out;
-}
-.navbar .navbar-toggler .top-bar {
-  margin-top: 5px;
-  transform: rotate(135deg);
-}
-.navbar .navbar-toggler .bottom-bar {
-  margin-top: -2px;
-  transform: rotate(-135deg);
-}
-
-.navbar .navbar-toggler{
-  padding: 10px;
-}
-
-.navbar .navbar-toggler.collapsed .top-bar {
-  margin-top: -1px;
-  transform: rotate(0deg);
-}
-.navbar .navbar-toggler.collapsed .bottom-bar {
-  margin-top: 6px;
-  transform: rotate(0deg);
-}
-
 .number {
   color: #000;
   font-size: 20px;
   background-color: #fdc213;
 }
 
-.banner{
+.banner {
   position: relative;
   z-index: 2;
   min-height: 150vh;
@@ -163,7 +133,7 @@ h6 {
   padding: 5px 70px;
 }
 
-.typeoftrips{
+.typeoftrips {
   background-color: #fdc213;
   position: relative;
   z-index: 1;
@@ -171,28 +141,47 @@ h6 {
   padding-bottom: 30px;
 }
 
-.animation-line{
+.animation-line {
   max-width: 981px;
   width: 100%;
-  height: 5px;
+  height: 1px;
   background-color: #000;
+  position: relative;
 }
 
-.typeoftrips .card{
+.typeoftrips .card {
   max-width: 267px;
 }
 
-.typeoftrips .card .card-title{
+.typeoftrips .card .card-title {
   font-size: 20px;
 }
 
-.typeoftrips .card .card-text{
+.typeoftrips .card .card-text {
   line-height: 1.4em;
 }
 
-.type-trips{
-  /* position: relative; */
-  /* margin-top: -60px; */
+.typeoftrips .car {
+  height: 35px;
+  width: 115px;
+  position: absolute;
+  z-index: 122;
+  top : 54px; 
+  left: 890px;
+  animation-name: travel;
+  animation-duration: 2s;
+  /* animation-delay: 2s; */
+}
+
+@keyframes travel{
+  0% {left: 116px; }
+  /* 50%{ top : 40px; left: 508px;} */
+  100%{left: 890px;}
+}
+
+.type-trips {
+  position: relative;
+  margin-top: -60px;
   background-color: #fff;
   border-radius: 20px;
   max-width: 1141px;
@@ -369,19 +358,19 @@ h6 {
 /**online-booking end**/
 
 /**memorable journey**/
-.memorable{
+.memorable {
   position: relative;
   z-index: -1;
 }
 
-.memorable-journey{
+.memorable-journey {
   background: url(../img/memorable-journey.jpg);
   background-size: cover;
   background-attachment: fixed;
-  height: 612px; 
+  height: 612px;
 }
 
-.overlay{
+.overlay {
   background-color: rgb(40, 41, 43);
   position: absolute;
   top: 0;
@@ -398,116 +387,116 @@ h6 {
   z-index: 4;
 }
 
-.memorable .memory{
+.memorable .memory {
   position: relative;
   z-index: 4;
 }
 /**memorable journey end**/
 
 /**Trips from**/
-.trip-from{
+.trip-from {
   background-color: #28292b;
   padding: 70px 0;
   position: relative;
 }
 
-.mouse-wheel{
+.mouse-wheel {
   position: absolute;
   top: -35px;
   left: 0;
 }
 
-.trip-from .car{
+.trip-from .car {
   position: absolute;
   transition: 0.2s;
 }
 
-.trip-from .booking{
+.trip-from .booking {
   color: #fdc213;
 }
 
-.trip-from ul li::marker{
+.trip-from ul li::marker {
   color: #fff;
   padding-left: 15px;
 }
 
-.trip-from ul li a{
+.trip-from ul li a {
   font-size: 13px;
 }
 /**Trips from end**/
 
 /**Testimonials**/
-.testimonails{
+.testimonails {
   padding: 35px 0;
 }
 
-.border-quotes{
+.border-quotes {
   width: 120px;
   height: 120px;
   border: 1px solid #000;
   border-radius: 50%;
 }
 
-.double-quotes{
+.double-quotes {
   width: 40px;
   height: 40px;
 }
 
-.testimonails .card{
+.testimonails .card {
   padding: 58px 0 47px;
   border: 1px solid #fdc213;
 }
 
-.testimonails .card .card-text{
+.testimonails .card .card-text {
   max-width: 289px;
 }
 
-.testimonails .card .card-title{
+.testimonails .card .card-title {
   font-size: 16px;
   color: #fdc213;
   padding-top: 66px;
 }
 
-.first{
+.first {
   background-color: #fdc213;
 }
 /**Testimonials end**/
 
 /**join-team**/
-.join-team{
+.join-team {
   padding: 75px 0 140px;
   background-color: #fdc213;
 }
 
-.application{
+.application {
   font-size: 25px;
 }
 
-.apply-form{
+.apply-form {
   max-width: 900px;
 }
 
-.inform{
+.inform {
   background-color: transparent;
-  border: 2px solid black;
+  border: 1px solid black;
   max-width: 400px;
   width: 100%;
   height: 50px;
   padding-left: 20px;
 }
 
-.inform::placeholder{
+.inform::placeholder {
   color: #000;
 }
 
-.inform:focus-visible{
+.inform:focus-visible {
   border: 2px solid black;
   outline: none;
 }
 
-.message{
+.message {
   background-color: transparent;
-  border: 2px solid black;
+  border: 1px solid black;
   max-width: 850px;
   width: 100%;
   height: 150px;
@@ -515,40 +504,40 @@ h6 {
   padding-bottom: 80px;
 }
 
-.message::placeholder{
+.message::placeholder {
   color: #000;
 }
 
-.message:focus-visible{
+.message:focus-visible {
   border: 2px solid black;
   outline: none;
 }
 
-.join-team .btn-dark{
+.join-team .btn-dark {
   max-width: 850px;
 }
 
-.btn-dark:hover{
+.btn-dark:hover {
   background-color: transparent;
   color: #000;
 }
 /**join-team**/
 
 /**footer**/
-.footer{
+.footer {
   background-color: rgb(40 41 43);
 }
 
-.footer .container{
+.footer .container {
   max-width: 1100px;
 }
 
-.footer .memorable-logo{
+.footer .memorable-logo {
   width: 164px;
   height: 210px;
 }
 
-.reviews{
+.reviews {
   font-size: 21px;
 }
 /**footer end**/
